@@ -17,6 +17,62 @@ public class usuario {
                 this.numeroTarjeta = _numeroTarjeta;
         }
 
+        public String getUsuario() {
+        return usuario;
+        }
+
+        public void setUsuario(String usuario) {
+        this.usuario = usuario;
+        }
+
+        public int getEdad() {
+        return edad;
+        }
+
+        public void setEdad(int edad) {
+        this.edad = edad;
+        }
+
+        public int getPin() {
+        return pin;
+        }
+
+        public void setPin(int pin) {
+        this.pin = pin;
+        }
+
+        public String getCorreo() {
+        return correo;
+        }
+
+        public void setCorreo(String correo) {
+        this.correo = correo;
+        }
+
+        public int getSaldo() {
+        return saldo;
+        }
+
+        public void setSaldo(int saldo) {
+        this.saldo = saldo;
+        }
+
+        public int getDocumento() {
+        return documento;
+        }
+
+        public void setDocumento(int documento) {
+        this.documento = documento;
+        }
+
+        public int getNumeroTarjeta() {
+        return numeroTarjeta;
+        }
+
+        public void setNumeroTarjeta(int numeroTarjeta) {
+        this.numeroTarjeta = numeroTarjeta;
+        }
+
 
 
 }
