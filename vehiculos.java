@@ -6,4 +6,7 @@ public class vehiculos {
     private int costo = 0;
     private int codigoVehiculo = 0;
     
+    public void requiereMantenimiento (){
+    }
+
 }
