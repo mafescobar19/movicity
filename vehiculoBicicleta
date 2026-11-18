@@ -1,3 +1,11 @@
 public class vehiculoBicileta {
-    
+    private int costoViaje = 0;
+    //$1.500 de desbloqueo + $150 por minuto. Si el viaje supera 60 minutos, multa fija de $3.000.
+
+
+
+public void requiereMantenimiento (){
+    int xd = 0;
+
+    }
 }
