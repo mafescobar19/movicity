@@ -15,6 +15,10 @@ public class usuario {
                 this.saldo = _saldo;
                 this.documento = _documento;
                 this.numeroTarjeta = _numeroTarjeta;
+
+        }
+        public void descuento(){
+
         }
 
         public String getUsuario() {
