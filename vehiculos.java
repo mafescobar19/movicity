@@ -5,14 +5,20 @@ public class vehiculos {
     private int numeroViajes = 0;
     private int costo = 0;
     private int codigoVehiculo = 0;
+    private String formato = "";
 
-    public vehiculos(int _kilometros, int _tiempoUso, int _bateria, int _numeroViajes, int _costo, int _codigoVehiculo){
+    public vehiculos(int _kilometros, int _tiempoUso, int _bateria, int _numeroViajes, int _costo, int _codigoVehiculo, String _formato){
         this.kilometros = _kilometros;
         this.tiempoUso = _tiempoUso;
         this.bateria = _bateria;
         this.numeroViajes = _numeroViajes;
         this.costo = _costo;
-        this. codigoVehiculo = _codigoVehiculo;
+        this.codigoVehiculo = _codigoVehiculo;
+        this.formato = _formato; 
+    }
+    //requiere modificasiones
+    public vehiculos (String _formato){
+        this.formato = _formato;
     }
     
     public void requiereMantenimiento (){
