@@ -1,10 +1,12 @@
-public class vehiculoBicileta {
-    private int costoViaje = 0;
+public class vehiculoBicileta extends vehiculos{
     //$1.500 de desbloqueo + $150 por minuto. Si el viaje supera 60 minutos, multa fija de $3.000.
+    public vehiculosBicicleta( int kilometros, int tiempoUso, int bateria, int numeroViajes, int costo, int codigoVehiculo){
+        super(kilometros, tiempoUso, bateria, numeroViajes, costo, codigoVehiculo);
+        
+    }
 
 
-
-public void requiereMantenimiento (){
+    public void requiereMantenimiento (){
 
     }
 }
